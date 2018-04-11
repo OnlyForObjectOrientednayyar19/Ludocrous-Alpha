@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="edu_up_cs301.game.RulesActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Rules"
+            android:textColor="#FFF"
+            android:textSize="64sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="If the player has no pieces yet in play and rolls other than a 6, the turn passes to the next player."
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Once a player has one or more pieces in play and rolls the die, he may select a piece to move. The piece moves along the track the number of squares indicated by the die."
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Players must always move a piece according to the die value rolled. Passes are not allowed. If no move is possible, the turn moves to the next player."
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Eight safe spaces exist on the board, the four star tiles and the four starting tiles (the tile a piece first lands on when exiting its home base)."
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="When a 6 is rolled, the player may choose to advance a piece already in play, or may enter another staged piece to its starting tile. Rolling a 6 earns the player an additional or bonus roll in that turn. If the bonus roll results in a 6 again, the player earns an additional bonus roll."
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="If the advance of a piece ends on a square occupied by an opponent's piece, the opponent piece is returned to its owner's base. The returned token can be reentered into play only when the owner rolls a 6."
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="A player wins the game by moving all of thier pieces into the center home tile."
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
